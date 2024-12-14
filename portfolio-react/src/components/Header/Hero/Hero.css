@@ -1,0 +1,59 @@
+.hero {
+    /* background-image: url('/images/hero7.png'); */
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--primary);
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    opacity: 0;
+    animation: fadeInZoom 2s forwards ease-in-out;
+}
+
+.name-container2 {
+    font-size: 30px;
+    opacity: 0;
+    animation: fadeInZoom 2s forwards ease-in-out;
+}
+
+.word-left, .word-right {
+    position: relative;
+    animation: slideLeft 2s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.559);
+    padding: 5px;
+    font-size: 2em;
+}
+
+.word-right {
+    animation-name: slideRight;
+}
+
+.hero-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: var(--white);
+    border: 1px solid var(--primary);
+    border-radius: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0;
+    animation: bounceIn 3s forwards ease-in-out 2s;
+    width: 300px;
+    box-shadow: 3px 3px 6px var(--primary);
+    letter-spacing: 2px;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: var(--secondary);
+}

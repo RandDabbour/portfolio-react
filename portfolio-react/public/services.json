@@ -1,0 +1,40 @@
+
+[
+    {
+      "icon": "wysiwyg",
+      "title": "Front-End Development",
+      "description": "Building and maintaining websites using HTML, CSS, and Bootstrap 5 framework.",
+      "link": "#"
+    },
+    {
+      "icon": "smartphone",
+      "title": "Responsive Web Design",
+      "description": "Creating mobile-friendly websites that adapt seamlessly to various screen sizes.",
+      "link": "#"
+    },
+    {
+        "icon": "smartphone",
+        "title": "Responsive Web Design",
+        "description": "Creating mobile-friendly websites that adapt seamlessly to various screen sizes.",
+        "link": "#"
+      },
+      {
+        "icon": "smartphone",
+        "title": "Responsive Web Design",
+        "description": "Creating mobile-friendly websites that adapt seamlessly to various screen sizes.",
+        "link": "#"
+      },
+      {
+        "icon": "smartphone",
+        "title": "Responsive Web Design",
+        "description": "Creating mobile-friendly websites that adapt seamlessly to various screen sizes.",
+        "link": "#"
+      },
+      {
+        "icon": "smartphone",
+        "title": "Responsive Web Design",
+        "description": "Creating mobile-friendly websites that adapt seamlessly to various screen sizes.",
+        "link": "#"
+      }
+  ]
+  
